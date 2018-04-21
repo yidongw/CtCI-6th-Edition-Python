@@ -1,6 +1,11 @@
 # O(N)
+# #44 Try a hash table. 
+# hash table the space will be a little smaller than this
+# #117 Could a bit vector be useful? 
+# What we implemented here
+# #132 Can you solve it in O(N log N) time? What might a solution like that look like? 
+# Sort then loop through see if there is any duplicate
 import unittest
-
 
 def unique(string):
     # Assuming character set is ASCII (128 characters)
